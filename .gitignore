@@ -9,6 +9,17 @@
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
+/Assets/Animation
+/Assets/3D Models
+/Assets/Audio
+/Assets/Materials
+/Assets/Prefabs
+/Assets/Resources
+/Assets/Texture
+/Assets/URP
+/Assets/Scenes
+/Assets/TextMesh Pro
+/Assets/Joystick Pack
 /[Uu]ser[Ss]ettings/
 *.log
 
@@ -54,11 +65,16 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+*.fbx
+*.anim
 
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+*.fbx.meta
+*.anim.meta
+*.meta
 
 # Unity3D generated file on crash reports
 sysinfo.txt
