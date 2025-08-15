@@ -46,8 +46,8 @@ public class NpcSpawner : MonoBehaviour
         while (currentIndex == prevIndex);
         prevIndex = currentIndex;
 
-        var npc = pooler.Spawn(currentIndex.ToString(), spawnPoint.position, new Vector3(0f, 180f, 0f));
-        npc.GetComponent<NpcMovement>().MoveToScan();
-        npc.GetComponent<NpcScan>().SetInfection();
+        //var npc = pooler.Spawn(currentIndex.ToString(), spawnPoint.position, new Vector3(0f, 180f, 0f));
+        //npc.GetComponent<NpcMovement>().MoveToScan();
+        //npc.GetComponent<NpcScan>().SetInfection();
     }
 }

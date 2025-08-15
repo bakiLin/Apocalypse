@@ -12,6 +12,8 @@ public class Init : MonoBehaviour
         var systemsGroup = world.CreateSystemsGroup();
         systemsGroup.AddSystem(ScriptableObject.CreateInstance<PlayerMoveSystem>());
         systemsGroup.AddSystem(ScriptableObject.CreateInstance<PlayerRotateSystem>());
+        //systemsGroup.AddSystem(ScriptableObject.CreateInstance<NpcSpawnSystem>());
+        systemsGroup.AddSystem(new NpcSpawnInitializer());
 
         world.AddSystemsGroup(order: 0, systemsGroup);
     }
